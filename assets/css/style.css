@@ -4,3 +4,11 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.buta img{
+    width: 100%;
+    height: auto;
+}
+.buta{
+    width: 50px;
+}
