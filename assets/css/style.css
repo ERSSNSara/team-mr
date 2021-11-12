@@ -11,6 +11,8 @@ body{
 }
 .buta{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .kaba img{
     width: 100%;
@@ -18,6 +20,8 @@ body{
 }
 .kaba{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .koara img{
     width: 100%;
@@ -25,6 +29,8 @@ body{
 }
 .koara{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .simauma img{
     width: 100%;
@@ -32,6 +38,8 @@ body{
 }
 .simauma{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .zou img{
     width: 100%;
@@ -39,6 +47,8 @@ body{
 }
 .zou{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .hukurou img{
     width: 100%;
@@ -46,6 +56,8 @@ body{
 }
 .hukurou{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .huraminngo img{
     width: 100%;
@@ -53,6 +65,8 @@ body{
 }
 .huraminngo{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .hebi img{
     width: 100%;
@@ -60,6 +74,8 @@ body{
 }
 .hebi{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .pennginn img{
     width: 100%;
@@ -67,6 +83,8 @@ body{
 }
 .pennginn{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .rakuda img{
     width: 100%;
@@ -74,6 +92,8 @@ body{
 }
 .rakuda{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .risu img{
     width: 100%;
@@ -81,6 +101,8 @@ body{
 }
 .risu{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
 .saru img{
     width: 100%;
@@ -88,4 +110,6 @@ body{
 }
 .saru{
     width: 50px;
+    background-color: transparent;
+    border: none;
 }
