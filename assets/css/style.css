@@ -27,6 +27,9 @@
     width: 50px;
     background-color: transparent;
     border: none;
+    position: absolute;
+    top: 500px;
+    left: 225px;
 }
 .koara img{
     width: 100%;
@@ -36,6 +39,9 @@
     width: 50px;
     background-color: transparent;
     border: none;
+    position: absolute;
+    top: 440px;
+    left: 530px;
 }
 .simauma img{
     width: 100%;
