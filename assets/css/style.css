@@ -1,18 +1,23 @@
-body{
+.zoo{
     height: 125vh;
     background-image: url(../animal/c2b516f3afbc307a93eee1f7a6f2f6db.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .buta img{
     width: 100%;
     height: auto;
+
 }
 .buta{
     width: 50px;
     background-color: transparent;
     border: none;
+    position: absolute;
+    top: 440px;
+    left: 1200px;
 }
 .kaba img{
     width: 100%;
@@ -113,3 +118,4 @@ body{
     background-color: transparent;
     border: none;
 }
+
