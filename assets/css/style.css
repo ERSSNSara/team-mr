@@ -16,8 +16,8 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 47%;
-    left: 80%;
+    top: 45%;
+    left: 85%;
 }
 .kaba img{
     width: 100%;
@@ -28,8 +28,8 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 500px;
-    left: 225px;
+    top: 51%;
+    left: 15%;
 }
 .koara img{
     width: 100%;
@@ -40,8 +40,8 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 440px;
-    left: 530px;
+    top: 45%;
+    left: 37%;
 }
 .simauma img{
     width: 100%;
@@ -51,6 +51,9 @@
     width: 50px;
     background-color: transparent;
     border: none;
+    position: absolute;
+    top: 12%;
+    left: 32%;
 }
 .zou img{
     width: 100%;
@@ -60,6 +63,9 @@
     width: 50px;
     background-color: transparent;
     border: none;
+    position: absolute;
+    top: 65%;
+    left: 75%;
 }
 .hukurou img{
     width: 100%;
