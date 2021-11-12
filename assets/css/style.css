@@ -11,7 +11,81 @@ body{
 }
 .buta{
     width: 50px;
-    background-color: transparent;
-    border: none;
-    
+}
+.kaba img{
+    width: 100%;
+    height: auto;
+}
+.kaba{
+    width: 50px;
+}
+.koara img{
+    width: 100%;
+    height: auto;
+}
+.koara{
+    width: 50px;
+}
+.simauma img{
+    width: 100%;
+    height: auto;
+}
+.simauma{
+    width: 50px;
+}
+.zou img{
+    width: 100%;
+    height: auto;
+}
+.zou{
+    width: 50px;
+}
+.hukurou img{
+    width: 100%;
+    height: auto;
+}
+.hukurou{
+    width: 50px;
+}
+.huraminngo img{
+    width: 100%;
+    height: auto;
+}
+.huraminngo{
+    width: 50px;
+}
+.hebi img{
+    width: 100%;
+    height: auto;
+}
+.hebi{
+    width: 50px;
+}
+.pennginn img{
+    width: 100%;
+    height: auto;
+}
+.pennginn{
+    width: 50px;
+}
+.rakuda img{
+    width: 100%;
+    height: auto;
+}
+.rakuda{
+    width: 50px;
+}
+.risu img{
+    width: 100%;
+    height: auto;
+}
+.risu{
+    width: 50px;
+}
+.saru img{
+    width: 100%;
+    height: auto;
+}
+.saru{
+    width: 50px;
 }
