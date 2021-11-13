@@ -7,8 +7,8 @@
 }
 
 .animal{
-    position: absolute;
-    top: ;
+    
+
 
 
 }
@@ -23,8 +23,8 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 100px;
+    /* left: 1%; */
 }
 .kaba img{
     width: 100%;
@@ -146,8 +146,8 @@
     width: 400px;
     background-color:transparent;
     border: none;position: absolute;
-    top: 60%;
-    left: 3%;
+    /* top: ; */
+    left: 1000px;
 }
 .saru img{
     width: 100%;
