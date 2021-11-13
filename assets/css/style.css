@@ -1,16 +1,22 @@
 .zoo{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background:transparent;
+;
+    
+    
     
 }
 
 .animal{
-    position: absolute;
-    top: ;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
-
+h1 {
+    font-size: 75px;
+    
 }
 
 .buta img{
@@ -51,7 +57,7 @@
     left: 20%;
 }
 .simauma img{
-    width: 100px;
+    width: 300px;
     height: auto;
 }
 .simauma{
@@ -60,7 +66,7 @@
     border-radius: 5%;
     border: none;
     position: absolute;
-    top: 14%;
+    top: 7%;
     left: 31.2%;
 }
 .zou img{
@@ -110,21 +116,23 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 10%;
+    top: 1%;
     left: 50%;
 }
 .pennginn img{
     width: 100%;
-    height: auto;
+    height: 80%;
+    
 }
 .pennginn{
-    width: 400px;
+    width: 200px; 
+    height: 100px;
     background-color: transparent;
     border: none;
     border-radius: 10%;
     position: absolute;
-    top: 70%;
-    left: 30%;
+    top: 30%;
+    left: 43%;
 }
 .rakuda img{
     width: 100%;
