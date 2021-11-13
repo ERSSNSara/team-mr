@@ -12,20 +12,20 @@
 
 }
 .buta{
-    width: 50px;
-    background-color: transparent;
+    width: 60px;
+    background-color: rgb(10, 219, 125);
     border: none;
     position: absolute;
-    top: 45%;
-    left: 85%;
+    top: 44%;
+    left: 84%;
 }
 .kaba img{
     width: 100%;
     height: auto;
 }
 .kaba{
-    width: 50px;
-    background-color: transparent;
+    width: 55px;
+    background-color: lightskyblue;
     border: none;
     position: absolute;
     top: 51%;
@@ -36,8 +36,8 @@
     height: auto;
 }
 .koara{
-    width: 50px;
-    background-color: transparent;
+    width: 60px;
+    background-color: rgb(10, 219, 125);
     border: none;
     position: absolute;
     top: 45%;
@@ -48,86 +48,110 @@
     height: auto;
 }
 .simauma{
-    width: 50px;
-    background-color: transparent;
+    width: 74px;
+    background-color: rgb(10, 219, 125);
+    border-radius: 5%;
     border: none;
     position: absolute;
-    top: 12%;
-    left: 32%;
+    top: 14%;
+    left: 31.2%;
 }
 .zou img{
     width: 100%;
     height: auto;
 }
 .zou{
-    width: 50px;
-    background-color: transparent;
+    width: 120px;
+    background-color: rgb(10, 219, 125);
+    border-radius: 10%;
     border: none;
     position: absolute;
-    top: 65%;
-    left: 75%;
+    top: 63%;
+    left: 65%;
 }
 .hukurou img{
     width: 100%;
     height: auto;
 }
 .hukurou{
-    width: 50px;
-    background-color: transparent;
+    width: 55px;
+    background-color: rgb(10, 219, 125);
     border: none;
+    position: absolute;
+    top: 45.5%;
+    left: 13.5%;
+
 }
 .huraminngo img{
     width: 100%;
     height: auto;
 }
 .huraminngo{
-    width: 50px;
-    background-color: transparent;
+    width: 60px;
+    background-color: lightpink;
     border: none;
+    position: absolute;
+    top: 52%;
+    left: 26%;
 }
 .hebi img{
     width: 100%;
     height: auto;
 }
 .hebi{
-    width: 50px;
-    background-color: transparent;
+    width: 55px;
+    background-color: lightgoldenrodyellow;
     border: none;
+    position: absolute;
+    top: 59%;
+    left: 17%;
 }
 .pennginn img{
     width: 100%;
     height: auto;
 }
 .pennginn{
-    width: 50px;
-    background-color: transparent;
+    width: 60px;
+    background-color: lightskyblue;
     border: none;
+    border-radius: 10%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
 }
 .rakuda img{
     width: 100%;
     height: auto;
 }
 .rakuda{
-    width: 50px;
-    background-color: transparent;
+    width: 65px;
+    background-color: rgb(10, 219, 125);
     border: none;
+    position: absolute;
+    top: 46%;
+    left: 45%;
 }
 .risu img{
     width: 100%;
     height: auto;
 }
 .risu{
-    width: 50px;
-    background-color: transparent;
-    border: none;
+    width: 55px;
+    background-color: rgb(10, 219, 125);
+    border: none;position: absolute;
+    top: 47%;
+    left: 63.5%;
 }
 .saru img{
     width: 100%;
     height: auto;
 }
 .saru{
-    width: 50px;
-    background-color: transparent;
+    width: 75px;
+    background-color: rgb(10, 219, 125);
     border: none;
+    position: absolute;
+    top: 29%;
+    left: 80%;
 }
 
