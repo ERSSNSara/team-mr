@@ -7,35 +7,45 @@
 }
 
 .animal{
-    
-
-
-
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
+h1 {
+    font-size: 75px;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+}
 .buta img{
     width: 100%;
     height: auto;
 
 }
 .buta{
-    width: 400px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 100px;
-    /* left: 1%; */
+    top: 55%;
+    left: 0%; 
 }
 .kaba img{
     width: 100%;
     height: auto;
 }
 .kaba{
-    width: 400px;
-    background-color:transparent;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color:transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 51%;
+    top: 70%;
     left: 15%;
 }
 .koara img{
@@ -43,50 +53,57 @@
     height: auto;
 }
 .koara{
-    width: 400px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 85%;
+    left: 60%;
 }
 .simauma img{
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 .simauma{
-    width: 400x;
-    background-color: transparent;
-    border-radius: 5%;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border-radius: 5%; */
+    border-radius: 50%;
+    /* border: none; */
     position: absolute;
-    top: 14%;
-    left: 31.2%;
+    top: 40%;
+    left: 15%;
 }
 .zou img{
     width: 100%;
     height: auto;
 }
 .zou{
-    width: 400px;
-    background-color: transparent;
-    border-radius: 10%;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    border-radius: 50%;
+    /* border: none; */
     position: absolute;
-    top: 63%;
-    left: 65%;
+    top: 70%;
+    left: 75%;
 }
 .hukurou img{
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 .hukurou{
-    width: 300px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 25%;
+    left: 30%;
 
 }
 .huraminngo img{
@@ -94,48 +111,55 @@
     height: auto;
 }
 .huraminngo{
-    width: 400px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 52%;
-    left: 26%;
+    top: 10%;
+    left: 45%;
 }
 .hebi img{
     width: 100%;
     height: auto;
 }
 .hebi{
-    width: 400px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 40%;
+    left: 75%;
 }
 .pennginn img{
     width: 100%;
     height: auto;
 }
 .pennginn{
-    width: 400px;
-    background-color: transparent;
-    border: none;
-    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 30%;
 }
 .rakuda img{
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 .rakuda{
-    width: 400px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
+    height: 200px;;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 46%;
+    top: 100%;
     left: 45%;
 }
 .risu img{
@@ -143,22 +167,29 @@
     height: auto;
 }
 .risu{
-    width: 400px;
-    background-color:transparent;
-    border: none;position: absolute;
-    /* top: ; */
-    left: 1000px;
+    width: 200px;
+    height: 200px;
+    /* background-color:transparent; */
+    /* border: none; */
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    
 }
 .saru img{
     width: 100%;
     height: auto;
 }
 .saru{
-    width: 400px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
+    height: 200px;
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 50%;
     position: absolute;
-    top: 3%;
-    left: 70%;
+    top: 55%;
+    left: 90%;
 }
 
+    
