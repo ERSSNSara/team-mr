@@ -1,32 +1,154 @@
 .zoo{
     position: relative;
-    height: 100%;
-    width: 100%;
-    background:transparent;
-    
+    width: 70%;
+    padding-top: 70%;
+    margin: 20px auto;
+    overflow:hidden   
 }
 
+.zoo:after {
+	content: '';
+	display: block;
+	width: 85%;
+	padding-top: 85%;
+	border: solid 2px #000;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
 
-.animal{
-    height: 1000px;
+.ferriswheel{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+}
+.ferriswheel .animal{
+    position: relative;
+	width: 100%;
+	height: 100%;
+	animation: 100s linear big-circle infinite;	/* 大枠を回転させているアニメーション */
+}
+.ferriswheel .btn{
+    position: absolute;
+	width: 100px;
+	height: 50%;
+	transform-origin: 50% 100%;
+}
+/* 各コンテンツの文字を上向きにする */
+.ferriswheel .btn.buta { left: 50%; transform: translate(-50%, 0);}
+.ferriswheel .btn.kaba { left: 50%; transform: translate(-50%, 0) rotate(30deg);}
+.ferriswheel .btn.kirinn { left: 50%; transform: translate(-50%, 0) rotate(60deg);}
+.ferriswheel .btn.koara { left: 50%; transform: translate(-50%, 0) rotate(90deg);}
+.ferriswheel .btn.zou { left: 50%; transform: translate(-50%, 0) rotate(120deg);}
+.ferriswheel .btn.hukurou { left: 50%; transform: translate(-50%, 0) rotate(150deg);}
+.ferriswheel .btn.raionn { left: 50%; transform: translate(-50%, 0) rotate(180deg);}
+.ferriswheel .btn.pennginn{ left: 50%; transform: translate(-50%, 0) rotate(210deg);}
+.ferriswheel .btn.hebi{ left: 50%; transform: translate(-50%, 0) rotate(240deg);}
+.ferriswheel .btn.usi{ left: 50%; transform: translate(-50%, 0) rotate(270deg);}
+.ferriswheel .btn.huraminngo{ left: 50%; transform: translate(-50%, 0) rotate(300deg);}
+.ferriswheel .btn.saru{ left: 50%; transform: translate(-50%, 0) rotate(330deg);}
+.ferriswheel .btn .parts {
+	position: relative;
+	width: 80%;
+	/* margin: 0 auto; */
+	padding: 20px 0;
+	background: #eee;
+	text-align: center;
+}
+
+.ferriswheel .btn .buta .parts { animation: 100.0s linear circle1 infinite;}
+.ferriswheel .btn .kaba .parts { animation: 100.0s linear circle2 infinite;}
+.ferriswheel .btn .kirinn .parts { animation: 100.0s linear circle3 infinite;}
+.ferriswheel .btn .koara .parts{ animation: 100.0s linear circle4 infinite;}
+.ferriswheel .btn .zou .parts { animation: 100.0s linear circle5 infinite;}
+.ferriswheel .btn .hukurou .parts { animation: 100.0s linear circle6 infinite;}
+.ferriswheel .btn .raionn .parts { animation: 100.0s linear circle7 infinite;}
+.ferriswheel .btn .pennginn .parts{ animation: 100.0s linear circle8 infinite;}
+.ferriswheel .btn .hebi .parts{ animation: 100.0s linear circle9 infinite;}
+.ferriswheel .btn .usi .parts{ animation: 100.0s linear circle10 infinite;}
+.ferriswheel .btn .huraminngo .parts{ animation: 100.0s linear circle11 infinite;}
+.ferriswheel .btn .saru .parts{ animation: 100.0s linear circle12 infinite;}
+
+@keyframes big-circle {
+    0% { transform: rotate(0deg);}
+    100% { transform:rotate(360deg);}
+   }
+   @keyframes circle1 {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(-360deg);}
+   }
+   @keyframes circle2 {
+    0% { transform: rotate(330deg);}
+    100% { transform: rotate(-30deg);}
+   }
+   @keyframes circle3 {
+    0% { transform: rotate(300deg);}
+    100% { transform: rotate(-60deg);}
+   }
+   @keyframes circle4 {
+    0% { transform: rotate(270deg);}
+    100% { transform: rotate(-90deg);}
+   }
+   @keyframes circle5 {
+    0% { transform: rotate(240deg);}
+    100% { transform: rotate(-120deg);}
+   }
+   @keyframes circle6 {
+    0% { transform: rotate(210deg);}
+    100% { transform: rotate(-150deg);}
+   }
+   @keyframes circle7 {
+    0% { transform: rotate(180deg);}
+    100% { transform: rotate(-180deg);}
+   }
+   @keyframes circle8 {
+    0% { transform: rotate(150deg);}
+    100% { transform: rotate(-210deg);}
+   }
+   @keyframes circle9 {
+    0% { transform: rotate(120deg);}
+    100% { transform: rotate(-240deg);}
+   }
+   @keyframes circle10 {
+    0% { transform: rotate(90deg);}
+    100% { transform: rotate(-270deg);}
+   }
+   @keyframes circle11 {
+    0% { transform: rotate(60deg);}
+    100% { transform: rotate(-300deg);}
+   }
+   @keyframes circle12 {
+    0% { transform: rotate(30deg);}
+    100% { transform: rotate(-330deg);}
+   }
+
+/* .animal{ */
+    /* height: 1000px;
     width: 1000px; 
     border-radius: 50%;
     display: flex;
     justify-content: center;
     position: relative;
-    margin: auto;
-}
+    margin: auto; */
+/* } */
 
 
-h1 {
+/* h1 {
     font-size: 75px;
     position: absolute;
     text-align: center;
     margin: auto;
     top: 65%;
-    left: 30%;
-}
-.buta img{
+    left: 30%; */
+/* } */
+/* .buta img{
     width: 100%;
     height: auto;
 
@@ -34,9 +156,9 @@ h1 {
 .buta{
 
     width: 200px;
-    height: 200px;
+    height: 200px; */
     /* background-color: transparent; */
-    /* border: none; */
+    /* border: none;
     border-radius: 50%;
 
     position: absolute;
@@ -54,42 +176,42 @@ h1 {
     height: 200px;
     /* background-color:transparent; */
     /* border: none; */
-    border-radius: 50%;
+    /* border-radius: 50%;
     position: absolute;
     top: 70%;
     left: 15%;
 
-}
-.kirinn img{
+} */
+/* .koara img{
     width: 100%;
-    height: auto;
-}
-.kirinn{
-    width: 200px;
-    height: 200px;
-    /* background-color: transparent; */
-    /* border: none; */
-    border-radius: 50%;
-    position: absolute;
-    top: 85%;
-    left: 60%;
-}
-.koara img{
-    width: 200px;
     height: auto;
 }
 .koara{
     width: 200px;
     height: 200px;
-    /* background-color: transparent; */
-    /* border-radius: 5%; */
+    background-color: transparent;
+    border: none;
     border-radius: 50%;
-    /* border: none; */
+    position: absolute;
+    top: 85%;
+    left: 60%;
+} */
+/* .simauma img{
+    width: 200px;
+    height: auto;
+}
+.simauma{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 5%;
+    border-radius: 50%;
+    border: none;
     position: absolute;
     top: 40%;
     left: 15%;
-}
-.zou img{
+} */
+/* .zou img{
     width: 100%;
     height: auto;
 }
@@ -98,112 +220,112 @@ h1 {
     width: 200px;
     height: 200px;
     /* background-color: transparent; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* border: none; */
-    position: absolute;
-    top: 70%;
-    left: 75%;
+    /* position: absolute; */
+    /* top: 70%; */
+    /* left: 75%; */
 
-}
-.hukurou img{
+/* } */
+/* .hukurou img{
     width: 90%;
     height: auto;
 }
 .hukurou{
     width: 200px;
     height: 200px;
-    /* background-color: transparent; */
-    /* border: none; */
+    background-color: transparent;
+    border: none;
     border-radius: 50%;
     position: absolute;
     top: 25%;
     left: 30%;
 
-}
-.raionn img{
-    width: 100%;
-    height: auto;
-}
-.raionn{
-    width: 200px;
-    height: 200px;
-    /* background-color: transparent; */
-    /* border: none; */
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    left: 45%;
-}
-.hebi img{
-    width: 100%;
-    height: auto;
-}
-.hebi{
-    width: 200px;
-    height: 200px;
-    /* background-color: transparent; */
-    /* border: none; */
-    border-radius: 50%;
-    position: absolute;
-    top: 40%;
-    left: 75%;
-}
-.pennginn img{
-    width: 100%;
-    height: auto;
-}
-.pennginn{
-    width: 200px;
-    height: 200px;
-    /* background-color: transparent; */
-    /* border: none; */
-    border-radius: 50%;
-    position: absolute;
-    top: 85%;
-    left: 30%;
-}
-.usi img{
-    width: 90%;
-    height: auto;
-}
-.usi{
-    width: 200px;
-    height: 200px;;
-    /* background-color: transparent; */
-    /* border: none; */
-    border-radius: 50%;
-    position: absolute;
-    top: 100%;
-    left: 45%;
-}
-.huraminngo img{
+} */
+/* .huraminngo img{
     width: 100%;
     height: auto;
 }
 .huraminngo{
     width: 200px;
     height: 200px;
-    /* background-color:transparent; */
-    /* border: none; */
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+} */
+/* .hebi img{
+    width: 100%;
+    height: auto;
+}
+.hebi{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+} */
+/* .pennginn img{
+    width: 100%;
+    height: auto;
+}
+.pennginn{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+} */
+/* .rakuda img{
+    width: 90%;
+    height: auto;
+}
+.rakuda{
+    width: 200px;
+    height: 200px;;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+} */
+/* .risu img{
+    width: 100%;
+    height: auto;
+}
+.risu{
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    border: none;
     border-radius: 50%;
     position: absolute;
     top: 25%;
     left: 60%;
-    
-}
-.saru img{
+     */
+/* } */
+/* .saru img{
     width: 100%;
     height: auto;
 }
 .saru{
     width: 200px;
     height: 200px;
-    /* background-color: transparent; */
-    /* border: none; */
+    background-color: transparent;
+    border: none;
     border-radius: 50%;
     position: absolute;
     top: 55%;
     left: 90%;
-}
+}  */
 
     
