@@ -8,16 +8,21 @@
 
 
 .animal{
-    height: 100vh; 
+    height: 1000px;
+    width: 1000px; 
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     position: relative;
+    margin: auto;
 }
 
 
 h1 {
     font-size: 75px;
     position: absolute;
+    text-align: center;
+    margin: auto;
     top: 65%;
     left: 30%;
 }
