@@ -4,10 +4,21 @@
     width: 70%;
     padding-top: 70%;
     margin: 20px auto;
-    overflow:hidden;
+    overflow:hidden   
 }
-/* 黒円 */
-/* .zoo:after {
+.world{
+    position: absolute;
+    left: 40%;
+    top: 43%;
+    font-size: 50px;
+    font-family: fantasy;
+    color: #FF8C00;
+    background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.zoo:after {
 	content: '';
 	display: block;
 	width: 85%;
@@ -19,7 +30,7 @@
 	top: 50%;
 	transform: translate(-50%,-50%);
 	z-index: 1;
-} */
+}
 
 .ferriswheel{
     width: 100%;
@@ -35,15 +46,17 @@
 	width: 100%;
 	height: 100%;
 	animation: 100s linear big-circle infinite;	/* 大枠を回転させているアニメーション */
+    
 }
 .ferriswheel .btn{
     position: absolute;
 	width: 100px;
 	height: 50%;
 	transform-origin: 50% 100%;
+    /* border-radius: 100%; */
 }
 /* 各コンテンツの文字を上向きにする */
-.ferriswheel .btn.buta { left: 50%; transform: translate(-50%, 0);}
+.ferriswheel .btn.buta { left: 50%; transform: translate(-50%, 0); }
 .ferriswheel .btn.kaba { left: 50%; transform: translate(-50%, 0) rotate(30deg);}
 .ferriswheel .btn.kirinn { left: 50%; transform: translate(-50%, 0) rotate(60deg);}
 .ferriswheel .btn.koara { left: 50%; transform: translate(-50%, 0) rotate(90deg);}
@@ -57,10 +70,12 @@
 .ferriswheel .btn.saru{ left: 50%; transform: translate(-50%, 0) rotate(330deg);}
 .ferriswheel .btn .parts {
 	position: relative;
-	width: 80%;
+    height: 150px;
+	width: 150px;
 	margin: 0 auto;
 	padding: 20px 0;
 	background: #eee;
+    border-radius: 50%;
 	text-align: center;
 }
 
@@ -130,25 +145,6 @@
     100% { transform: rotate(-330deg);}
    }
 
-.parts{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-h1{
-    font-size: 60px;
-    position: absolute;
-    top: 50%;
-    left: 37%;
-}
-.text{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    position: relative;
-}
-
 /* .animal{ */
     /* height: 1000px;
     width: 1000px; 
@@ -159,6 +155,15 @@ h1{
     margin: auto; */
 /* } */
 
+
+/* h1 {
+    font-size: 75px;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 65%;
+    left: 30%; */
+/* } */
 /* .buta img{
     width: 100%;
     height: auto;
