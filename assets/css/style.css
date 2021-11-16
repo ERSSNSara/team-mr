@@ -1,12 +1,13 @@
+
 .zoo{
     position: relative;
     width: 70%;
     padding-top: 70%;
     margin: 20px auto;
-    overflow:hidden   
+    overflow:hidden;
 }
-
-.zoo:after {
+/* 黒円 */
+/* .zoo:after {
 	content: '';
 	display: block;
 	width: 85%;
@@ -18,7 +19,7 @@
 	top: 50%;
 	transform: translate(-50%,-50%);
 	z-index: 1;
-}
+} */
 
 .ferriswheel{
     width: 100%;
@@ -57,7 +58,7 @@
 .ferriswheel .btn .parts {
 	position: relative;
 	width: 80%;
-	/* margin: 0 auto; */
+	margin: 0 auto;
 	padding: 20px 0;
 	background: #eee;
 	text-align: center;
@@ -129,6 +130,25 @@
     100% { transform: rotate(-330deg);}
    }
 
+.parts{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+}
+.text{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
 /* .animal{ */
     /* height: 1000px;
     width: 1000px; 
@@ -139,15 +159,6 @@
     margin: auto; */
 /* } */
 
-
-/* h1 {
-    font-size: 75px;
-    position: absolute;
-    text-align: center;
-    margin: auto;
-    top: 65%;
-    left: 30%; */
-/* } */
 /* .buta img{
     width: 100%;
     height: auto;
