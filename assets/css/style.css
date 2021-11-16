@@ -1,3 +1,4 @@
+
 .zoo{
     position: relative;
     width: 70%;
@@ -5,7 +6,18 @@
     margin: 20px auto;
     overflow:hidden   
 }
+.world{
+    position: absolute;
+    left: 40%;
+    top: 43%;
+    font-size: 50px;
+    font-family: fantasy;
+    color: #FF8C00;
+    background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+}
 .zoo:after {
 	content: '';
 	display: block;
@@ -57,10 +69,10 @@
 .ferriswheel .btn .parts {
 	position: relative;
 	width: 80%;
-	/* margin: 0 auto; */
+	margin: 0 auto;
 	padding: 20px 0;
 	background: #eee;
-	text-align: center;
+	/* text-align: center; */
 }
 
 .ferriswheel .btn .buta .parts { animation: 100.0s linear circle1 infinite;}
